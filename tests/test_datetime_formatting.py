@@ -7,4 +7,5 @@ def test_datetime_object_return_correct_dd_mm_yy_format():
         month=10,
         year=2016
     )
-    assert "1/10/16"==test_datetime.get_dd_mm_yy_format()
+    assert "1/10/2016"==test_datetime.get_dd_mm_yy_format()
+    
